@@ -19,18 +19,14 @@ FirstApp::Application.configure do
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
-<<<<<<< HEAD
-  # Raise an error on page load if there are pending migrations.
-=======
   # Raise an error on page load if there are pending migrations
->>>>>>> 2d19356f47419f9ccfe3cb548a4f57501acc4f6a
+
   config.active_record.migration_error = :page_load
 
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-<<<<<<< HEAD
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
@@ -43,6 +39,5 @@ FirstApp::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-=======
->>>>>>> 2d19356f47419f9ccfe3cb548a4f57501acc4f6a
+
 end

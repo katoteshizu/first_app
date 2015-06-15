@@ -19,11 +19,5 @@ module FirstApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-<<<<<<< HEAD
-
-    # Do not swallow errors in after_commit/after_rollback callbacks.
-    # config.active_record.raise_in_transactional_callbacks = true
-=======
->>>>>>> 2d19356f47419f9ccfe3cb548a4f57501acc4f6a
   end
 end
